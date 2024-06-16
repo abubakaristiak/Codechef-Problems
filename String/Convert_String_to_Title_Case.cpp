@@ -1,3 +1,5 @@
+// Pending
+//https://www.codechef.com/practice/course/strings/STRINGS/problems/TITLECASE?tab=statement
 #include<bits/stdc++.h>
 using namespace std;
 int main()
