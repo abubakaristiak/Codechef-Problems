@@ -1,3 +1,4 @@
+//https://www.codechef.com/practice/course/strings/STRINGS/problems/DNASTORAGE?tab=statement
 #include<bits/stdc++.h>
 using namespace std;
 int main()
