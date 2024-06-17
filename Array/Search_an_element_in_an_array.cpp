@@ -1,3 +1,4 @@
+//https://www.codechef.com/practice/course/arrays/ARRAYS/problems/SEARCHINARR
 #include<bits/stdc++.h>
 using namespace std;
 int main()
