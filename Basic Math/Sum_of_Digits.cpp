@@ -1,3 +1,4 @@
+//https://www.codechef.com/practice/course/basic-math/BASICMATH/problems/FLOW006
 #include<bits/stdc++.h>
 using namespace std;
 int main()
