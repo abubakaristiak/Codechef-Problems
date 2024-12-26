@@ -1,13 +1,3 @@
-/*
- * Bismillahir Rahmanir Raheem
- *
- * * * * Coder   : abubakaristiak
- * * * * Created : 2024-12-25 || 15:44:38
- * * * * File    : CRED_Coins.cpp
- */
-
-
-
 #include<bits/stdc++.h>
 #define ll long long
 #define pi pair<ll, ll>
@@ -27,13 +17,20 @@ int main()
     int t; cin >> t;
     while (t--)
     {
-        int x,y; cin >> x >> y;
-        int total = x*y;
-        int bags=total/100;
-        cout << bags << endl;
+        int n; cin >> n;
+        if(n<=100){
+            cout << n << endl;
+        }else if(n>100 && n<=1000){
+            cout << n-25 << endl;
+        }else if(n>1000 && n<=5000){
+            cout << n-100 << endl;
+        }else if(n>5000){
+            cout << n-500 << endl;
+        }
     }
     
     return 0;
+
 
 // Alhamdulillah
 }

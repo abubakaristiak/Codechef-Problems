@@ -2,8 +2,8 @@
  * Bismillahir Rahmanir Raheem
  *
  * * * * Coder   : abubakaristiak
- * * * * Created : 2024-12-25 || 15:44:38
- * * * * File    : CRED_Coins.cpp
+ * * * * Created : 2024-12-26 || 21:25:21
+ * * * * File    : Water_Filling.cpp
  */
 
 
@@ -24,16 +24,31 @@ using namespace std;
 int main()
 {
     fast();
-    int t; cin >> t;
-    while (t--)
-    {
-        int x,y; cin >> x >> y;
-        int total = x*y;
-        int bags=total/100;
-        cout << bags << endl;
+    int t; 
+    cin >> t;
+    while (t--) {
+        int a, b, c; 
+        cin >> a >> b >> c;
+
+        int empty_cnt=0;
+        if(a==0){
+            empty_cnt++;
+        }
+        if(b==0){
+            empty_cnt++;
+        }
+        if(c==0){
+            empty_cnt++;
+        }
+
+        if (empty_cnt >= 2) {
+            cout << "Water filling time" << endl;
+        } else {
+            cout << "Not now" << endl;
+        }
     }
-    
     return 0;
+
 
 // Alhamdulillah
 }
