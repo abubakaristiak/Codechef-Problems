@@ -2,8 +2,8 @@
  * Bismillahir Rahmanir Raheem
  *
  * * * * Coder   : abubakaristiak
- * * * * Created : 2025-02-07 || 14:20:42
- * * * * File    : Is_the_Score_Consistent.cpp
+ * * * * Created : 2025-02-07 || 14:30:00
+ * * * * File    : Monopoly.cpp
  */
 
 
@@ -25,9 +25,9 @@ using namespace std;
 void solve()
 {
     int a,b,c,d; cin >> a >> b >> c >> d;
-    if(c>=a && d>=b){
-        cout << "POSSIBLE" << endl;
-    }else cout << "IMPOSSIBLE" << endl;
+    if(a>(b+c+d) || b>(a+c+d) || c>(a+b+d) || d>(a+b+c)){
+        yes;
+    }else no;
 }
 
 

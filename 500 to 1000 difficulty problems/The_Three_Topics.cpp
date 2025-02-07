@@ -2,8 +2,8 @@
  * Bismillahir Rahmanir Raheem
  *
  * * * * Coder   : abubakaristiak
- * * * * Created : 2025-02-07 || 14:20:42
- * * * * File    : Is_the_Score_Consistent.cpp
+ * * * * Created : 2025-02-07 || 14:26:25
+ * * * * File    : The_Three_Topics.cpp
  */
 
 
@@ -24,17 +24,17 @@ using namespace std;
 
 void solve()
 {
-    int a,b,c,d; cin >> a >> b >> c >> d;
-    if(c>=a && d>=b){
-        cout << "POSSIBLE" << endl;
-    }else cout << "IMPOSSIBLE" << endl;
+    int a,b,c,x; cin >> a >> b >> c >> x;
+    if(x==a || x==b || x==c){
+        cyes;
+    }else cno;
 }
 
 
 int main()
 {
     fast();
-    int t; cin >> t;
+    int t=1;
     while (t--) {
         solve();
     }
