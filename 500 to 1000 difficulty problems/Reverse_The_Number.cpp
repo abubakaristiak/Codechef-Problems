@@ -29,8 +29,6 @@ void solve()
     }
     cout << digit << endl;
     
-
-    
 }
 
 
